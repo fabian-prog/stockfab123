@@ -30,7 +30,7 @@ add_meta_tag()
 # Sidebar Section Starts Here
 today = date.today()  # today's date
 st.write('''# StockStream ''')  # title
-st.sidebar.image("Images/StockStreamLogo1.png", width=250,
+st.sidebar.image("StockStreamLogo1.png", width=250,
                  use_column_width=False)  # logo
 st.sidebar.write('''# StockStream ''')
 
